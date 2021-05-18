@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>MARKET RESEARCH SURVEY</title>
+</head>
+<body>
+<form action="">
+	<h1>Market Research Survey</h1>
+	<p>Please take a few moments to complete this satisfaction survey</p>
+	<hr>
+	<label for="age">What is your age range?</label><br>
+	<select id="age" style="width:600px;">
+		<option>18-24</option>
+		<option>24-34</option>
+		<option>>35</option>
+	</select>
+	<br>
+	<label for="income">What is your yearly income range?</label><br>
+	<select id="income" style="width:600px;">
+		<option>$0 - $25,000</option>
+		<option>$25,000 - $50,000</option>
+		<option>$50,000+</option>
+	</select>
+	<br>
+	<label>Gender</label><br>
+	<input type="radio" id="M" name="gender"><label for="M">Male</label>
+	<input type="radio" id="FM" name="gender"><label for="FM">Female</label>
+	<br>
+	<p>Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+	<br>
+	<input type="checkbox">Product 1
+	<input type="checkbox">Product 2
+	<input type="checkbox">Product 3
+	<br>
+	<p>How often would you use our new product?</p>
+	<input type="radio" name="often" id="daily"><label for="daily">Daily</label><br>
+	<input type="radio" name="often" id="weekly"><label for="weekly">Weekly</label><br>
+	<input type="radio" name="often" id="monthly"><label for="monthly">Monthly</label><br>
+	<p>What would you pay for the new product?</p>
+	<table>
+		<tr>
+			<td rowspan="2" valign="top">$</td>
+			<td><input type="number" min="10" max="1000" style="width:70px;">.</td>
+			<td><input type="number" min="1" max="10" style="width:30px;"></td>
+		</tr>
+		<tr>
+			<td>Dollars</td>
+			<td>Cents</td>
+		</tr>
+	</table>
+	<br>
+	<p>What features would you like to see in the new product.</p>
+	<textarea cols="100" rows="10"></textarea>
+	<br>
+	<p>Please rate your level of agreement with the following statements.</p>
+	<table>
+		<tr style="background-color:black; color:white;">
+			<th style="width:250px;"></th>
+			<th style="width:70px;">Strongly Disagree</th>
+			<th style="width:70px;">Disagree</th>
+			<th style="width:70px;">Agree</th>
+			<th style="width:70px;">Strongly agree</th>
+		</tr>
+		<tr>
+			<td>Our product are priced fairly.</td>
+			<td style="text-align:center;">
+				<input type="radio" name="fairly"><br>
+				<p>1</p>
+			</td>
+			<td style="text-align:center;">
+				<input type="radio" name="fairly"><br>
+				<p>2</p>
+			</td>
+			<td style="text-align:center;">
+				<input type="radio" name="fairly"><br>
+				<p>3</p>
+			</td>
+			<td style="text-align:center;">
+				<input type="radio" name="fairly"><br>
+				<p>4</p>
+			</td>
+		</tr>
+		<tr style="background-color:gray;">
+			<td>Our product are high quality.</td>
+			<td style="text-align:center;">
+				<input type="radio" name="quality"><br>
+				<p>1</p>
+			</td>
+			<td style="text-align:center;">
+				<input type="radio" name="quality"><br>
+				<p>2</p>
+			</td>
+			<td style="text-align:center;">
+				<input type="radio" name="quality"><br>
+				<p>3</p>
+			</td>
+			<td style="text-align:center;">
+				<input type="radio" name="quality"><br>
+				<p>4</p>
+			</td>
+		</tr>
+		<tr>
+			<td>You would recommend our product to a friend or coworker.</td>
+			<td style="text-align:center;">
+				<input type="radio" name="recommend"><br>
+				<p>1</p>
+			</td>
+			<td style="text-align:center;">
+				<input type="radio" name="recommend"><br>
+				<p>2</p>
+			</td>
+			<td style="text-align:center;">
+				<input type="radio" name="recommend"><br>
+				<p>3</p>
+			</td>
+			<td style="text-align:center;">
+				<input type="radio" name="recommend"><br>
+				<p>4</p>
+			</td>
+		</tr>
+	</table>
+	<input type="submit">
+</form>
+</body>
+</html>
